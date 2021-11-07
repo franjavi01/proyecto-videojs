@@ -1,0 +1,10 @@
+let video = document.querySelector('video');
+let track = video.addTextTrack("captions", "Captions", "en");
+track.mode = "showing";
+track.addCue(new VTTCue(3, 5, 'Lorem ipsum'));
+track.addCue(new VTTCue(10, 15, 'dolor sit amet'));
+track.addCue(new VTTCue(16, 20, 'consectetur, adipisicing elit'));
+track.addCue(new VTTCue(23, 25, 'Delectus harum tenetur'));
+track.addCue(new VTTCue(27, 29, 'beatae error aliquid alias eveniet'));
+track.addCue(new VTTCue(32, 35, 'non aspernatur ipsam eum omnis sint expedita quibusdam voluptatibus dicta unde quasi fuga!'));
+console.log(track.cues);

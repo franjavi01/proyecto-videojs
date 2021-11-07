@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Insertar video con librería Video.js</title>
+</head>
+<body>
+  <video
+    id="my-video"
+    class="video-js vjs-16-9 vjs-big-play-centered vjs-theme-sea"
+    controls
+    preload="auto"
+    poster="./elvis-presley.jpg"
+    data-setup='{"playbackRates" : [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2] }'
+  >
+    <source src="./elvis-presley.mp4" type="video/mp4" />
+    <p class="vjs-no-js">
+      El navegador no soporta este vídeo
+    </p>
+  </video>
+  <script src="https://vjs.zencdn.net/7.16.0/video.min.js"></script>
+  <script src="./subtitulos.js"></script>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus harum tenetur beatae error aliquid alias eveniet, at, non aspernatur ipsam eum omnis sint expedita quibusdam voluptatibus dicta unde quasi fuga!</p>
+</body>
+</html>

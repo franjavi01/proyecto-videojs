@@ -1,0 +1,6 @@
+@import url(https://vjs.zencdn.net/7.16.0/video-js.css);
+@import url(./styles.css);
+@import url(https://unpkg.com/@videojs/themes@1/dist/city/index.css);
+@import url(https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css);
+@import url(https://unpkg.com/@videojs/themes@1/dist/forest/index.css);
+@import url(https://unpkg.com/@videojs/themes@1/dist/sea/index.css);
